@@ -1,6 +1,6 @@
 # Lusk GitHub Pages
 
-We use open source. We give to open source.
+We use open source. We open source.
 
 ## License
 
