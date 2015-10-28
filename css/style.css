@@ -1,0 +1,147 @@
+
+/* OVERRIDES */
+
+html {
+  font-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5f7d94;
+}
+
+body {
+  background-color: #f1f1f3;
+}
+
+p, ul, li, h1, h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #5c8bc2;
+}
+
+code {
+  position: relative;
+  top: -.1rem;
+  padding: .1rem .4rem .2rem;
+  font-size: .85em;
+  font-style: normal;
+  border-radius: 4px;
+  color: #5f7d94;
+  background-color: #e2e2e2;
+
+}
+
+
+/* COMPONENTS */
+
+/* Content */
+
+.content {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 2rem;
+}
+
+/* Header */
+
+.header {
+  padding-bottom: 1.5rem;
+}
+
+.header__title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #434343;
+}
+
+.header__intro {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+/* Section */
+
+.section {
+  padding-bottom: 1.5rem;
+}
+
+.section__title {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #434343;
+}
+
+/* Repo */
+
+.repo {
+  margin-bottom: 1rem;
+}
+
+.repo:last-child {
+  margin-bottom: 0;
+}
+
+.repo__link {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.repo__description {
+  margin-bottom: 0.5rem;
+}
+
+.repo__note {
+
+}
+
+/* Contact */
+
+.contact {
+  border-top: 1px solid #D4D4D4;
+  padding-top: 1.5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 50em) {
+  html {
+    font-size: 120%;
+  }
+
+  .content {
+    padding: 1.5rem 3rem 6rem;
+  }
+
+  .header {
+    padding-bottom: 3rem;
+  }
+
+  .header__title {
+    font-size: 4rem;
+    font-weight: 300;
+  }
+
+  .header__intro {
+    font-size: 1.8rem;
+  }
+
+  .section {
+    padding-bottom: 3rem;
+  }
+
+  .section__title {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+
+  .contact {
+    padding-top: 3rem;
+  }
+}

@@ -1,25 +1,80 @@
----
----
 <!doctype html>
 <html lang="en">
 	<head>
+		<title>Lusk Open Source</title>
+
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
-		<title>Lusk's GitHub Pages</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600' rel='stylesheet' type='text/css'>
+		<link href='css/normalize.css' rel='stylesheet' type='text/css'>
+		<link href='css/style.css' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-    <h1>Lusk</h1>
-    <p>We use open source. We open source.</p>
-    <ul>
-      <li><a href="https://github.com/arturmuller/lobster-chat">arturmuller/lobster-chat</a> — Example stack with React, Redux, Koa, Socket.io, Mongoose, etc.</li>
-      <li><a href="https://github.com/arturmuller/select-layers-by-name">arturmuller/select-layers-by-name</a> — Sketch Plugin for creating a selection using layer names</li>
-      <li><a href="https://github.com/pavelvolek/redux-keen">pavelvolek/redux-keen</a> — Redux middleware for sending analytics to Keen</li>
-      <li><a href="https://github.com/saamo/api-blueprint-focus-booster">saamo/api-blueprint-focus-booster</a> — Gulp tasks for writing large API Blueprints efficiently</li>
-      <li><a href="https://github.com/saamo/api-doc-test">saamo/api-doc-test</a> — Generate API Blueprint from BDD-style (Jasmine/Mocha) test</li>
-      <li><a href="https://github.com/saamo/gmatch">saamo/gmatch</a> — Convenient way of matching regular expressions globally in JavaScript</li>
-      <li><a href="https://github.com/saamo/gulp-extract-json-like">saamo/gulp-extract-json-like</a> — Gulp plugin for extracting JSON like strings from text</li>
-      <li><a href="https://github.com/saamo/mongoose-soft-delete">saamo/mongoose-soft-delete</a> — Mongoose plugin for soft deletes</li>
-    </ul>
+    <div class="content">
+			<header class="header">
+				<h1 class="header__title">Lusk</h1>
+		    <p class="header__intro">We use open source. We open source.</p>
+			</header>
+			<section class="section" id="built-at-lusk">
+				<h2 class="section__title">Built at Lusk</h2>
+				<ul class="reposList">
+		      <li class="repo">
+						<a class="repo__link" target="_blank" href="https://github.com/arturmuller/lobster-chat">arturmuller/lobster-chat</a>
+						<p class="repo__description">Full-stack experiments by the Lusk team.</p>
+						<p class="repo__note">This is our tech playground. We use it to test drive most the shiny new things we want to use in Lusk. Think about it as a step above Todo MVC. Currently using React, Redux, Koa, Socket.io, Mongoose, Webpack...</p>
+					</li>
+		      <li class="repo">
+						<a class="repo__link" target="_blank" href="https://github.com/arturmuller/select-layers-by-name">arturmuller/select-layers-by-name</a>
+						<p class="repo__description">Sketch Plugin for creating a selection using layer names</p>
+						<p class="repo__note">When working with large Sketch files with a lot of groups and nesting, selecting them by hand in the Layer List is a massive pain. This plugin uses layer names for creating selections which can significantly speed up your workflow.</p>
+					</li>
+		      <li class="repo">
+						<a class="repo__link" target="_blank" href="https://github.com/pavelvolek/redux-keen">pavelvolek/redux-keen</a>
+						<p class="repo__description">Redux middleware for sending analytics to Keen</p>
+						<p class="repo__note">We use (and love!) Keen.io Analytics. Really, it's awesome. This middleware makes it really easy to get up and running using Keen in your Redux app.</p>
+					</li>
+		      <li class="repo">
+						<a class="repo__link" target="_blank" href="https://github.com/saamo/api-blueprint-focus-booster">saamo/api-blueprint-focus-booster</a>
+						<p class="repo__description">Gulp tasks for writing large API Blueprints efficiently</p>
+						<p class="repo__note">API Bluprints are pretty great. We use them all the time to synchronise our front-end/back-end development. This group of Gulp tasks make writing large API Blueprints a breeze.</p>
+					</li>
+		      <li class="repo">
+						<a class="repo__link" target="_blank" href="https://github.com/saamo/api-doc-test">saamo/api-doc-test</a>
+						<p class="repo__description">Generate API Blueprint from BDD-style (Jasmine/Mocha) test</p>
+						<p class="repo__note">Writing documentation takes time. Writing tests takes time. Using this package on your tests, you can significantly speed up your whole process, effectively only having to write and you get your docs for free! Yay!</p>
+					</li>
+		      <li class="repo">
+						<a class="repo__link" target="_blank" href="https://github.com/saamo/gmatch">saamo/gmatch</a>
+						<p class="repo__description">Convenient way of matching regular expressions globally in JavaScript</p>
+					</li>
+		      <li class="repo">
+						<a class="repo__link" target="_blank" href="https://github.com/saamo/gulp-extract-json-like">saamo/gulp-extract-json-like</a>
+						<p class="repo__description">Gulp plugin for extracting JSON like strings from text</p>
+					</li>
+		      <li class="repo">
+						<a class="repo__link" target="_blank" href="https://github.com/saamo/mongoose-soft-delete">saamo/mongoose-soft-delete</a>
+						<p class="repo__description">Mongoose plugin for soft deletes</p>
+					</li>
+		    </ul>
+			</section>
+
+			<section class="section" id="contributions">
+				<h2 class="section__title">Contributions</h2>
+				<ul class="reposList">
+		      <li class="repo">
+						<a class="repo__link" target="_blank" href="https://github.com/vkarpov15/acquit">vkarpov15/acquit</a>
+						<p class="repo__description">Parse BDD-style tests (Mocha, Jasmine) to generate documentation.</p>
+						<p class="repo__note">We added custom callback feature to the <code>parse()</code> function.</p>
+					</li>
+		    </ul>
+			</section>
+
+			<section class="contact" id="contact">
+				<p>Like what you see? Wanna chat? Get in touch over Twitter (<a href="http://twitter.com/@artmllr">@artmllr</a>, <a href="http://twitter.com/@samirdjellil">@samirdjellil</a>, and <a href="http://twitter.com/@pavelvolek_cz">@pavelvolek_cz</a>), or shoot us a good old-fashioned email at <a href="mailto:labs@lusk.io">labs@lusk.io</a></p>
+			</section>
+
+    </div>
 	</body>
 </html>
