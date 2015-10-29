@@ -1,5 +1,5 @@
 
-/* OVERRIDES */
+/* DEFAULTS */
 
 html {
   font-size: 100%;
@@ -7,21 +7,21 @@ html {
   color: #5f7d94;
 }
 
-body {
-  background-color: #f1f1f3;
-}
-
 p, ul, li, h1, h2 {
   margin: 0;
 }
 
 ul {
-  list-style: none;
   padding: 0;
+  list-style: none;
 }
 
 a {
   color: #5c8bc2;
+}
+
+a:hover {
+  color: #416C9E;
 }
 
 code {
@@ -33,7 +33,6 @@ code {
   border-radius: 4px;
   color: #5f7d94;
   background-color: #e2e2e2;
-
 }
 
 
